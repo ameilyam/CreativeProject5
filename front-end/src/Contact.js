@@ -1,4 +1,10 @@
 import React from "react";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+// import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
   
 const Contact = () => {
   return (
@@ -14,7 +20,9 @@ const Contact = () => {
         <div className="display">
           <div className="artboard artboard-demo phone-1">
             <h1>Contact Me!</h1>
-            
+            <FontAwesomeIcon icon={faPhone}/>
+            <FontAwesomeIcon icon={faEnvelope}/>
+            <FontAwesomeIcon icon="fa-brands fa-instagram" />
           </div>
         </div>
       </div>
