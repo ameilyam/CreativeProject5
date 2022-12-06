@@ -2,13 +2,13 @@ import './App.css';
 import NavBar from "./NavBar.js"
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
-import Home from './Pages/Home.js';
-import About from './Pages/About.js';
-import Contact from './Pages/Contact.js';
-import Signs from './Pages/Signs.js';
-import Journals from './Pages/Journals.js'
-import OtherArt from './Pages/OtherArt.js';
-import DigitalDesigns from './Pages/DigitalDesigns.js'
+import Home from './Home.js';
+import About from './About.js';
+import Contact from './Contact.js';
+import Signs from './Signs.js';
+import Journals from './Journals.js'
+import OtherArt from './OtherArt.js';
+import DigitalDesigns from './DigitalDesigns.js'
 
 function App() {
   return (
