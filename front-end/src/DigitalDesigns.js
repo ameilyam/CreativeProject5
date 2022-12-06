@@ -3,7 +3,7 @@ import React from "react";
 const DigitalDesigns = () => {
   return (
     <div>
-      <h1>
+      <h1 className="pageHeaders">
         DigitalDesigns
       </h1>
     </div>
