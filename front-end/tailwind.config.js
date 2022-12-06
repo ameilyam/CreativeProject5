@@ -24,5 +24,11 @@ module.exports = {
       "acid",
       "cupcake",
     ],
+    styled: true,
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+    prefix: "",
   },
 }

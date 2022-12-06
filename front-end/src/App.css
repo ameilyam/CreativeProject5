@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.pageHeaders {
+  @apply text-5xl;
+  @apply font-bold;
+}
+
+.contactText {
+  @apply text-left;
+}
+
+
 .App {
   text-align: center;
 }
