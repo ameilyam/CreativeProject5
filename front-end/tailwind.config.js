@@ -20,6 +20,10 @@ module.exports = {
           neutral: "#3d4451",
           "base-100": "#ffffff",
         },
+        container: {
+          center: true,
+          padding: '2rem',
+        },
       },
       "acid",
       "cupcake",

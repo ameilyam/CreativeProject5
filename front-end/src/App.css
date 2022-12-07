@@ -40,13 +40,15 @@
 .homeImage{
   @apply object-scale-down;
   @apply max-h-[500px];
-  @apply place-items-center;
-  @apply px-[585px];
-  @apply object-center;
+  /* @apply justify-center;
+  @apply place-items-center; */
+  @apply container;
+  /* @apply px-[585px]; */
+  /* @apply object-center;
   @apply relative;
-  @apply place-content-center;
+  @apply place-content-center; */
   @apply flex;
-  @apply items-center;
+  /* @apply items-center; */
 }
 
 .portfolioImage{
