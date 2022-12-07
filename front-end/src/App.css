@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.logoImage {
+  @apply object-scale-down;
+  @apply max-h-[90px];
+}
+
 .pageHeaders {
   @apply text-5xl;
   @apply font-bold;
@@ -9,6 +14,13 @@
 
 .aboutText {
   @apply text-left;
+}
+
+.aboutImage{
+  @apply object-scale-down;
+  @apply h-[1000px];
+  @apply flex;
+  @apply object-center;
 }
 
 .contactHeader {
@@ -28,12 +40,32 @@
 .homeImage{
   @apply object-scale-down;
   @apply max-h-[500px];
+  @apply place-items-center;
   @apply px-[585px];
   @apply object-center;
   @apply relative;
   @apply place-content-center;
   @apply flex;
   @apply items-center;
+}
+
+.portfolioImage{
+  @apply object-scale-down;
+  @apply max-h-[300px];
+  @apply flex;
+  @apply object-center;
+}
+
+.portfolio{
+  @apply grid;
+  @apply grid-cols-4;
+  @apply gap-4;
+  @apply place-items-center;
+}
+
+.footerLink {
+  @apply visited:text-purple-900;
+  @apply hover:text-teal-300;
 }
 
 .App {

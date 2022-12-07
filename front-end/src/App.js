@@ -25,6 +25,11 @@ function App() {
           <Route path='/digitalDesigns' element={<DigitalDesigns/>} />
       </Routes>
       </Router>
+      <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+        <div>
+          <a className="footerLink" href = "https://github.com/ameilyam/CreativeProject5.git">Github Link</a>
+        </div>
+      </footer>
       {/* <header class="header">
         <NavBar/>
       </header>

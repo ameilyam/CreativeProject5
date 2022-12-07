@@ -8,9 +8,7 @@ const Home = () => {
       </h1>
       <br/>
       <br/>
-      <br/>
-      <br/>
-      <div className="carousel w-full">
+      <div className="carousel w-full place-items-center">
         <div id="slide1" className="carousel-item carousel-center relative w-full">
           <img  className="homeImage" src={require('./Images/Digital/digital5.png')}  />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -40,9 +38,21 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <h3>
-        This is the home page
+      <br/>
+      <br/>
+      <h3 className="contactHeader">
+        Welcome to Designs Meez!
       </h3>
+      <br/>
+      <p>
+        I'm so glad you decided to stop in and visit my page! I'd love for you to check out my portfolio, and
+         feel free to contact me with any questions or commissions!
+      </p>
+      <p>
+        Ameilya Xx 
+      </p>
+      <br/>
+      <br/>
     </div>
   );
 };

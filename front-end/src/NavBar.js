@@ -6,6 +6,7 @@ function NavBar() {
     <div className="NavBar">
       <div className="navbar bg-base-100">
         <div className="flex-1">
+          <img className = "logoImage" src={require('./Images/logo.png')} />
           <a className="btn btn-ghost normal-case text-xl">Designs Meez</a>
         </div>
         <div className="flex-none">
