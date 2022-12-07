@@ -7,13 +7,38 @@
   @apply font-bold;
 }
 
-.contactText {
+.aboutText {
   @apply text-left;
 }
 
+.contactHeader {
+  @apply text-2xl;
+  @apply font-bold;
+}
+
+.contactText {
+  @apply text-lg;
+}
+
+.contactInfoDiv{
+  @apply content-center;
+}
+
+
+.homeImage{
+  @apply object-scale-down;
+  @apply max-h-[500px];
+  @apply px-[585px];
+  @apply object-center;
+  @apply relative;
+  @apply place-content-center;
+  @apply flex;
+  @apply items-center;
+}
 
 .App {
   text-align: center;
+  background-color: #fbf7f4;
 }
 
 .App-logo {
